@@ -21,10 +21,6 @@ $result = $conn->query($sql);
 $agent = $result->fetch_assoc();
 $support_level = $agent['support_level'];
 
-// Ensure only Tier 2 agents can elevate tickets
-if ($support_level < 2) {
-    die('Unauthorized action. Only Tier 2 agents can elevate tickets.');
-}
 
 // Check if ticket ID is provided
 if (!isset($_GET['ticket_id'])) {
