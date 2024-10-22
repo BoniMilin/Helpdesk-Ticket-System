@@ -1,7 +1,7 @@
  <!--
 Name: Boni Mlinganyo
 Student Number: C00284515
-Info : Close ticket button
+Info : Close ticket button.
 -->
 <?php
 // close_ticket.php
