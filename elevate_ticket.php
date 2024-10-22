@@ -57,4 +57,3 @@ if ($agent_result->num_rows > 0) {
     echo 'No Tier 1 agents available to assign the ticket.';
 }
 ?>
-
