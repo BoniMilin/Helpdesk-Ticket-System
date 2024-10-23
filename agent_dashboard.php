@@ -1,7 +1,7 @@
 <!--
 Name: Boni Mlinganyo
 Student Number: C00284515
-Info: Agent Dashboard with Search Feature
+Info: Agent Dashboard with Search Feature.
 -->
 <?php
 
